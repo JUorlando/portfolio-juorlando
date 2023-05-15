@@ -44,14 +44,14 @@ export const Home = (): JSX.Element => {
                 width={"48px"}
                 height={"48px"}
               />
-              <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
+              <Text color="grey4">Hello, i am {userData.nameUser}</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-            I{" "}
+              An{" "}
               <Text as="span" type="heading1" color="brand1">
-                love
+                enthusiast
               </Text>{" "}
-              creating and{" "}
+              in creating and{" "}
               <Text as="span" type="heading1" color="brand1">
                 developing
               </Text>{" "}
