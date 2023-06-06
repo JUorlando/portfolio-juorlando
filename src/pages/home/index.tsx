@@ -49,17 +49,18 @@ export const Home = (): JSX.Element => {
             <Text as="h1" type="heading1" color="grey5">
               An{" "}
               <Text as="span" type="heading1" color="brand1">
-                enthusiast
+                Fullstack
               </Text>{" "}
-              in creating and{" "}
+              developer, My objective is to work in the{" "}
               <Text as="span" type="heading1" color="brand1">
-                developing
+                development and maintenance
               </Text>{" "}
-              projects
+              of web applications, with a focus on delivering the best user
+              experience
             </Text>
             <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+              Here i am sharing with you, part of my programing life, my
+              projects and technologies
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
@@ -92,7 +93,7 @@ export const Home = (): JSX.Element => {
           <ProjectAreaWrapperColumns>
             <ProjectsAreaSocialMediaMessage>
               <Text as="h2" type="heading4" color="grey4">
-                My projects
+                Projects
               </Text>
               <Text as="p" type="body1" color="grey2">
                 Some of my{" "}
